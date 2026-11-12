@@ -1,0 +1,48 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-10-16T02:15:57Z",
+      "resolved": "github:NixOS/nixpkgs/f20cd90e28fe0403873f473b29e42662cd86e8c4?lastModified=1792116957&narHash=sha256-EjZqHKObBfIOeHZnMRVV87HB3pPq%2FWBkmRJWyFxmZu8%3D"
+    },
+    "nodejs@22": {
+      "last_modified": "2026-11-11T14:42:58Z",
+      "plugin_version": "0.0.5",
+      "resolved": "github:NixOS/nixpkgs/9397dcb09c9598a33509fbc0cce699bd4e6c84d5#nodejs_22",
+      "source": "devbox-search",
+      "version": "22.23.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3487qidyx4a05qdi49jsj6098gi7b11g-nodejs-22.23.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3487qidyx4a05qdi49jsj6098gi7b11g-nodejs-22.23.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g3niamxgxfajl1v7fynk6l7rkgy6sb5p-nodejs-22.23.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g3niamxgxfajl1v7fynk6l7rkgy6sb5p-nodejs-22.23.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hcqv7v84vm8frczn17xisy0qn84c9c7h-nodejs-22.23.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hcqv7v84vm8frczn17xisy0qn84c9c7h-nodejs-22.23.4"
+        }
+      }
+    }
+  }
+}
