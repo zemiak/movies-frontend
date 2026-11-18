@@ -1,13 +1,117 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "gh@latest": {
+      "last_modified": "2026-11-15T01:20:14Z",
+      "resolved": "github:NixOS/nixpkgs/1c872b8c508bbbfebc1b0b74777ff391ce0a574c#gh",
+      "source": "devbox-search",
+      "version": "2.104.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sljp8x9ki36vvmmdkj1jd6yggqx3vb2l-gh-2.104.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sljp8x9ki36vvmmdkj1jd6yggqx3vb2l-gh-2.104.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0b8jjy2f5ia106wdixsclw7fx98x7fkf-gh-2.104.0",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/b9acm2giyf5wayhh0yg0kcrw7960la97-gh-2.104.0-debug"
+            }
+          ],
+          "store_path": "/nix/store/0b8jjy2f5ia106wdixsclw7fx98x7fkf-gh-2.104.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8nkivkrdj9p478fq37g75nal1j5fdjpp-gh-2.104.0",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/6p9c7pmaxq1nylrl9sf9wmrbgwlp8im5-gh-2.104.0-debug"
+            }
+          ],
+          "store_path": "/nix/store/8nkivkrdj9p478fq37g75nal1j5fdjpp-gh-2.104.0"
+        }
+      }
+    },
+    "git@latest": {
+      "last_modified": "2026-11-15T01:20:14Z",
+      "resolved": "github:NixOS/nixpkgs/1c872b8c508bbbfebc1b0b74777ff391ce0a574c#git",
+      "source": "devbox-search",
+      "version": "2.56.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5gpqd5y6g8wav4sgry5i9qmp0kwnnwby-git-2.56.0",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/891py8svml38cqvi5i0wyf99i8mjza53-git-2.56.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/5gpqd5y6g8wav4sgry5i9qmp0kwnnwby-git-2.56.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6043wra24xi7fhdrw8rg204v31s39nd5-git-2.56.0",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/9lkhd1zvai0mw02aykjqbi730swwx9qd-git-2.56.0-debug"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/4h2hxpgirh65k9951jk7w7kw5hsrfvcb-git-2.56.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/6043wra24xi7fhdrw8rg204v31s39nd5-git-2.56.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/i2m3w4ly2w6grrmk1j59rb7zp09bssia-git-2.56.0",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/qlbskmnhjz3p6f2iwf5h59r7v8d7dpm6-git-2.56.0-debug"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/5a7dj71qa2r7k303v4f4j6b6kcdf1mff-git-2.56.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/i2m3w4ly2w6grrmk1j59rb7zp09bssia-git-2.56.0"
+        }
+      }
+    },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
       "last_modified": "2026-10-16T02:15:57Z",
       "resolved": "github:NixOS/nixpkgs/f20cd90e28fe0403873f473b29e42662cd86e8c4?lastModified=1792116957&narHash=sha256-EjZqHKObBfIOeHZnMRVV87HB3pPq%2FWBkmRJWyFxmZu8%3D"
     },
     "nodejs@22": {
       "last_modified": "2026-11-11T14:42:58Z",
-      "plugin_version": "0.0.5",
+      "plugin_version": "0.0.6",
       "resolved": "github:NixOS/nixpkgs/9397dcb09c9598a33509fbc0cce699bd4e6c84d5#nodejs_22",
       "source": "devbox-search",
       "version": "22.23.4",
