@@ -1,5 +1,5 @@
 # Build: typecheck + bundle.
-FROM node:22-alpine AS build
+FROM node:26-alpine AS build
 WORKDIR /src
 COPY package.json package-lock.json ./
 RUN npm ci
