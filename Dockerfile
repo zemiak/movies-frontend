@@ -7,7 +7,7 @@ COPY . .
 RUN npm run build
 
 # Runtime: nginx serves dist/ and proxies /api/ to the backend ($MOVIES_API).
-FROM nginx:1.28-alpine AS runtime
+FROM nginx:1.31-alpine AS runtime
 ENV MOVIES_API=http://movies.movies.svc.cluster.local:8096 \
     STREAM_BASE=
 COPY nginx/default.conf.template /etc/nginx/templates/default.conf.template
